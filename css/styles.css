@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 body {
   min-width: 300px;
   width: 100%;
@@ -17,6 +18,7 @@ hr {
   border-top: 6px dotted;
   width: 5%;
   margin: 20px auto;
+  clear: both;
 }
 
 .top-container {
@@ -47,6 +49,7 @@ h1 {
 h2 {
   font-family: 'Courier Prime', monospace;
   color: #D9ED92;
+  z-index: 2;
 }
 
 h3 {
@@ -105,14 +108,50 @@ h3 {
   min-width: 300px;
 }
 
-.skills {
+.experience {
+}
+
+.exp-box {
+  margin: 30px 0;
+}
+
+.date-exp {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 15px;
+}
+
+.info-exp {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.info-exp-text {
+  padding-top: 5px;
+  text-align: justify;
+  text-justify: auto;
+}
+
+.skill-box {
+  display: inline-block;
+  width: 300px;
+  margin: 15px 50px;
+  text-align: left;
+  vertical-align: top
 }
 
 .contact-me {
-  padding-bottom: 32px;
+  display: block;
+  padding: 32px;
+  clear: left
 }
 
-.bottom-container {
+footer {
+  display: block;
   background-color: #34A0A4;
   padding: 32px;
 }
