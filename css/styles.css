@@ -17,7 +17,7 @@ hr {
   border: None;
   border-top: 6px dotted;
   width: 5%;
-  margin: 20px auto;
+  margin: 50px auto;
   clear: both;
 }
 
@@ -87,7 +87,8 @@ h3 {
   display: flex;
   flex-flow: row wrap;
   padding: 10px;
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 50px;
 }
 
 .bio {
@@ -122,19 +123,33 @@ h3 {
 }
 
 .skills {
+}
+
+.skills-row-left {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  flex: 0 0 50%;
-  align-items: stretch;
+  align-items: center;
+  vertical-align: middle;
+  gap: 20px 60px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.skills-row-right {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px 60px;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .skill-box {
   display: inline-block;
-  width: 300px;
+  width: 400px;
   margin: 15px 50px;
   text-align: left;
-  vertical-align: top;
 }
 
 .skill-icon {
