@@ -17,8 +17,12 @@ hr {
   border: None;
   border-top: 6px dotted;
   width: 5%;
-  margin: 20px auto;
+  margin: 50px auto;
   clear: both;
+}
+
+@media print {
+    .pagebreak { page-break-before: always; }
 }
 
 .top-container {
@@ -79,69 +83,84 @@ h3 {
   left: 75%;
 }
 
-.profile {
+.bio-exp {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
+  padding: 10px;
   justify-content: center;
-  padding: 0 20px;
+  column-gap: 50px;
 }
 
-.icon-me {
-  max-width: 125px;
-  max-height: 125px;
-  flex: 1;
-  margin: 30px;
-  transition: 0.5s;
-}
-
-.icon-me:hover {
-  max-width: 130px;
-  max-height: 130px;
-}
-
-.profiletext {
+.bio {
+  width: 350px;
   text-align: justify;
-  text-justify: auto;
-  flex: 2 300px;
-  max-width: 400px;
-  min-width: 300px;
-}
-
-.experience {
+  justify-content: auto;
+  margin-right: 20px;
 }
 
 .exp-box {
   margin: 30px 0;
 }
 
-.date-exp {
-  display: inline-block;
-  max-width: 400px;
+.experience-header {
   text-align: left;
-  vertical-align: top;
-  margin-bottom: 15px;
+  margin: 30px 0;
+}
+
+.date-exp {
+  text-align: right;
 }
 
 .info-exp {
-  display: inline-block;
   max-width: 400px;
   text-align: left;
-  margin-left: 30px;
 }
 
 .info-exp-text {
-  padding-top: 5px;
+  padding-top: 0px;
   text-align: justify;
   text-justify: auto;
 }
 
+.skills {
+}
+
+.skills-row-left {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  vertical-align: middle;
+  gap: 20px 60px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.skills-row-right {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px 60px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
 .skill-box {
   display: inline-block;
-  width: 300px;
+  width: 400px;
   margin: 15px 50px;
   text-align: left;
-  vertical-align: top
+}
+
+.skill-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.education {
+  padding: 0 10% 0 30%;
+  text-align: justify;
+  justify-content: auto;
 }
 
 .contact-me {
