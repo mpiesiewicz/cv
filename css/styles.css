@@ -157,6 +157,12 @@ h3 {
   height: 100px;
 }
 
+.education {
+  padding: 0 10% 0 30%;
+  text-align: justify;
+  justify-content: auto;
+}
+
 .contact-me {
   display: block;
   padding: 32px;
