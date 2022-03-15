@@ -20,6 +20,7 @@ hr {
   font-family: monospace;
   font-size: 8pt;
   margin: 0;
+  margin-right: 5mm;
   text-align: right;
 } p {
   margin: 0;
