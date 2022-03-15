@@ -1,10 +1,11 @@
+
+
 body {
   width: 21cm;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #28282A;
   font-size: 10pt;
-
 }
 
 hr {
@@ -13,6 +14,16 @@ hr {
 
 @media print {
     .pagebreak { page-break-before: always; }
+}
+
+.print-header {
+  font-family: monospace;
+  font-size: 8pt;
+  margin: 0;
+  text-align: right;
+} p {
+  margin: 0;
+  font-weight: normal;
 }
 
 .top-container {
@@ -139,10 +150,29 @@ h3 {
 footer {
   display: block;
   background-color: white;
-  padding: 1cm 1cm 0.5cm 1cm;
+  padding: 0.5cm 1cm 0.2cm 1cm;
 }
 
 a {
+  color: #184E77;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  font-size: 115%;
+}
+
+
+.credits {
+  display: none;
+}
+
+.footer-link {
+  display: none;
+}
+
+.btn {
   display: none;
 }
 

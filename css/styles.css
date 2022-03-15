@@ -25,6 +25,10 @@ hr {
     .pagebreak { page-break-before: always; }
 }
 
+.print-header {
+  display: none;
+}
+
 .top-container {
   width: 100%;
   background-image: linear-gradient(#184E77 0% 10%, #34A0A4 85%, #52B69A);
