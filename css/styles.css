@@ -86,7 +86,7 @@ h3 {
 .hello-container {
   max-width: 500px;
   margin: 30px auto;
-  padding : 0 10vw;
+  padding: 0 10vw;
   text-align: left;
 }
 
@@ -176,7 +176,7 @@ h3 {
 .education {
   max-width: 800px;
   margin: 30px auto;
-  padding : 0 10vw;
+  padding: 0 10vw;
   text-align: left;
   text-align: justify;
   justify-content: auto;
