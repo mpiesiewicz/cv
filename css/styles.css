@@ -83,6 +83,22 @@ h3 {
   left: 75%;
 }
 
+.hello-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding : 0 10vw;
+  text-align: left;
+}
+
+.hello-container h2 {
+  padding-bottom: 10px;
+}
+
+.ty {
+  padding-top: 5px;
+}
+
+
 .bio-exp {
   display: flex;
   flex-flow: row wrap;
@@ -158,9 +174,14 @@ h3 {
 }
 
 .education {
-  padding: 0 10% 0 30%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding : 0 10vw;
+  text-align: left;
   text-align: justify;
   justify-content: auto;
+} h3 {
+  margin: 15px;
 }
 
 .contact-me {
