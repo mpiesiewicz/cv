@@ -22,7 +22,9 @@ hr {
 }
 
 @media print {
-    .pagebreak { page-break-before: always; }
+  .pagebreak {
+    page-break-before: always;
+  }
 }
 
 .print-header {
@@ -38,7 +40,7 @@ hr {
 }
 
 .first-header {
-  position: relative;+
+  position: relative;
   z-index: 1;
 }
 
@@ -62,6 +64,7 @@ h2 {
 
 h3 {
   font-family: 'Courier Prime', monospace;
+  margin: 15px;
 }
 
 .sub-header {
@@ -118,6 +121,10 @@ h3 {
   margin-right: 20px;
 }
 
+.bio-chunk {
+  margin-bottom: 20px;
+}
+
 .exp-box {
   margin: 30px 0;
 }
@@ -140,9 +147,6 @@ h3 {
   padding-top: 0px;
   text-align: justify;
   text-justify: auto;
-}
-
-.skills {
 }
 
 .skills-row-left {
@@ -184,8 +188,6 @@ h3 {
   text-align: left;
   text-align: justify;
   justify-content: auto;
-} h3 {
-  margin: 15px;
 }
 
 .contact-me {
@@ -201,7 +203,7 @@ footer {
 }
 
 .credits {
-  font-size:10px;
+  font-size: 10px;
 }
 
 a {

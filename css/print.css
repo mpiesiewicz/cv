@@ -1,11 +1,9 @@
-
-
 body {
   width: 21cm;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #28282A;
-  font-size: 10pt;
+  font-size: 9pt;
 }
 
 hr {
@@ -13,7 +11,9 @@ hr {
 }
 
 @media print {
-    .pagebreak { page-break-before: always; }
+  .pagebreak {
+    page-break-before: always;
+  }
 }
 
 .print-header {
@@ -22,7 +22,9 @@ hr {
   margin: 0;
   margin-right: 5mm;
   text-align: right;
-} p {
+}
+
+p {
   margin: 0;
   font-weight: normal;
 }
@@ -34,6 +36,7 @@ hr {
 }
 
 .first-header {
+  display: none;
   position: relative;
   z-index: 1;
 }
@@ -57,7 +60,12 @@ h3 {
   color: #184E77;
 }
 
+h4 {
+  margin: 0;
+}
+
 .sub-header {
+  display: none;
   font-family: 'Courier Prime', monospace;
   color: #184E77;
 }
