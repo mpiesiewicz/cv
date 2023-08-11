@@ -1,5 +1,5 @@
 body {
-  width: 21cm;
+  width: 23cm;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #28282A;
@@ -48,6 +48,7 @@ p {
 h1 {
   font-family: 'DM Mono', monospace;
   color: #28282A;
+  margin: 2px;
 }
 
 h2 {
@@ -65,9 +66,10 @@ h4 {
 }
 
 .sub-header {
-  display: none;
+  /* display: none; */
   font-family: 'Courier Prime', monospace;
   color: #184E77;
+  margin-bottom: 50px;
 }
 
 .bottom-cloud {
@@ -87,12 +89,13 @@ h4 {
   max-width: 150px;
   border-radius: 30%;
   margin-left: 50px;
+  margin-top: 5px;
 }
 
 .bio-exp {
   display: flex;
   justify-content: center;
-  column-gap: 8mm;
+  column-gap: 15mm;
 }
 
 .bio {
@@ -107,6 +110,8 @@ h4 {
 
 .experience-header {
   text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .date-exp {
@@ -115,6 +120,7 @@ h4 {
 
 .info-exp {
   text-align: left;
+  max-width: 600px;
 }
 
 .info-exp-text {
