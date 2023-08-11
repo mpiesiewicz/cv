@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 
 
@@ -64,7 +64,7 @@ h2 {
 
 h3 {
   font-family: 'Courier Prime', monospace;
-  margin: 15px;
+  margin: 10px;
 }
 
 .sub-header {
@@ -105,6 +105,12 @@ h3 {
   padding-top: 5px;
 }
 
+.profile-pic {
+  display: flexbox;
+  max-width: 150px;
+  border-radius: 30%;
+  margin-left: 50px;
+}
 
 .bio-exp {
   display: flex;
@@ -115,10 +121,11 @@ h3 {
 }
 
 .bio {
-  width: 350px;
+  width: 300px;
   text-align: justify;
-  justify-content: auto;
-  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0px;
 }
 
 .bio-chunk {
@@ -126,20 +133,21 @@ h3 {
 }
 
 .exp-box {
-  margin: 30px 0;
+  margin: 5px 0;
 }
 
 .experience-header {
   text-align: left;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 .date-exp {
   text-align: right;
+  font-size: smaller;
 }
 
 .info-exp {
-  max-width: 400px;
+  max-width: 600px;
   text-align: left;
 }
 
@@ -147,6 +155,11 @@ h3 {
   padding-top: 0px;
   text-align: justify;
   text-justify: auto;
+}
+
+.info-exp-task-list {
+  margin-top: 3px;
+  font-size: smaller;
 }
 
 .skills-row-left {

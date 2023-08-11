@@ -82,6 +82,13 @@ h4 {
   display: none;
 }
 
+.profile-pic {
+  display: flexbox;
+  max-width: 150px;
+  border-radius: 30%;
+  margin-left: 50px;
+}
+
 .bio-exp {
   display: flex;
   justify-content: center;
